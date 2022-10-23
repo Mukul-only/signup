@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="Syle.css" />
+  </head>
+
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <form>
+          <header>
+            <h1>SignUp</h1>
+            <p>it just takes 30sec.</p>
+          </header>
+          <main>
+            <span>
+              <label for="Name">Full Name</label>
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                placeholder="Enter your name"
+                required
+              />
+            </span>
+            <span>
+              <label for="Email">Email</label>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="youremail@gmail.com"
+                required
+              />
+            </span>
+            <span>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </span>
+            <span>
+              <label for="confirm">Confirm Password</label>
+              <input type="password" name="confirm" id="confirm" required />
+            </span>
+            <span>
+              <input type="submit" value="Create Account" id="submit" />
+            </span>
+          </main>
+          <footer>
+            <p>Already singed up? <a href="#">Login</a></p>
+          </footer>
+        </form>
+       
+      </div>
+      <div class="circle"></div>
+    </div>
+    
+  </body>
+</html>
